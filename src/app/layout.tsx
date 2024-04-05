@@ -5,7 +5,7 @@ import { Bebas_Neue } from "next/font/google";
 
 
 const MyFont = Bebas_Neue({
-  family: 'Bebas_Neue', 
+  variable: '--font-bebas-neue', 
   subsets: ['latin'],
   weight: '400'
 });
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={MyFont.className}>{children}</body>
+      <body className={MyFont.variable}>{children}</body>
     </html>
   );
 }

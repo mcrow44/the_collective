@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import styles from "./page.module.css";
 import ModalContent from "./ModalContent";
 
-const Modal = props => {
-  let modalVeil = null;
-  let modalDialog = null;
-  let modalContent = null;
+const Modal = (props: any) => {
+  let modalVeil:any = null;
+  let modalDialog:any = null;
+  const modalContent = useRef<HTMLDivElement>(null);
 
   const [modalTween] = useState(gsap.timeline({ paused: true }));
 
@@ -48,7 +48,7 @@ const Modal = props => {
         onClick={closeModal}
       />
       <div className={styles.modalDialog} ref={e => (modalDialog = e)}>
-        <ModalContent ref={e => (modalContent = e)} closeModal={closeModal} />
+        <ModalContent ref={modalContent} closeModal={closeModal} />
       </div>
     </div>
   );

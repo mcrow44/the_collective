@@ -1,13 +1,13 @@
-import React, { FC, forwardRef,useEffect, useRef, useState } from "react";
+import React, { FC, forwardRef,useEffect, useRef, useState, HTMLAttributes } from "react";
 import styles from "./page.module.css";
 import closeModal from "./Modal";
 import Modal from "./Modal";
 
 type ModalContentProps = {
   closeModal: () => void;
-}
+} & HTMLAttributes<HTMLDivElement>;
 
-const ModalContent: FC<ModalContentProps> = forwardRef((props, ref) => {
+const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) => {
   return (
     <div className={styles.modalContentContainer} ref={ref}>
       <img className={styles.exit} src="/exit.svg" alt="exit" width="32px" height="32px" onClick={props.closeModal}/> 

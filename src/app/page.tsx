@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import GalleryCarousel from "./GalleryCarousel";
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import React, { useEffect, useRef, useState } from "react";
+import React, { FormEvent, useEffect, useRef, useState } from "react";
 import { log } from "console";
 import Modal from "./Modal";
 // import Button from "./NavScroll";
@@ -16,16 +16,16 @@ gsap.registerPlugin(ScrollToPlugin)
 
 export default function Home() {
 
-  const container = useRef();
-  const blockLeft = useRef();
-  const blockRight = useRef();
-  const leftTop = useRef();
-  const leftBottom = useRef();
-  const rightBottom = useRef();
-  const center = useRef();
-  const centertwo = useRef();
-  const biography = useRef();
-  const bodyRef = useRef();
+  const container = useRef<HTMLDivElement>(null);
+  const blockLeft = useRef<HTMLDivElement>(null);
+  const blockRight = useRef<HTMLDivElement>(null);
+  const leftTop = useRef<HTMLDivElement>(null);
+  const leftBottom = useRef<HTMLDivElement>(null);
+  const rightBottom = useRef<HTMLDivElement>(null);
+  const center = useRef<HTMLDivElement>(null);
+  const centertwo = useRef<HTMLDivElement>(null);
+  const biography = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
   
     const handleClickHome = () => {
       gsap.to(window, {
@@ -83,7 +83,7 @@ export default function Home() {
   };
 
   const animateHeroItemsTwo = () => {
-    
+    if(leftTop?.current && leftBottom?.current && rightBottom?.current && biography?.current) {
     gsap.timeline()
       .to(leftTop?.current, {
         opacity: 0,
@@ -106,10 +106,11 @@ export default function Home() {
         duration: 1,
         ease: 'ease-in'
       }, '-=1'); // Start this animation 1 second before the end of the previous one
+    }
   };
 
   const animateWhiteOutMain = () => {
-    
+    if(center?.current && center?.current && blockLeft?.current && blockRight?.current) {
     gsap.timeline()
       .to(center?.current,{
         transform: 'translateX(-80px)', // corrected "translatex" to "translateX"
@@ -131,10 +132,11 @@ export default function Home() {
         duration: 1,
         ease: 'ease-in-out'
       }, '-=1.09'); // Start this animation 1 second before the end of the previous one
+    }
   };
 
   const unanimateHeroItemsTwo = () => {
-    
+    if(leftTop?.current && leftBottom?.current && rightBottom?.current && biography?.current) {
     gsap.timeline()
       .to(leftTop?.current, {
         opacity: 1,
@@ -157,10 +159,11 @@ export default function Home() {
         duration: 1,
         ease: 'ease-in'
       }, '-=5'); // Start this animation 1 second before the end of the previous one
+    }
   };
 
   const unanimateWhiteOutMain = () => {
-    
+    if(center?.current && blockLeft?.current && blockRight?.current) {
     gsap.timeline()
       .to(center?.current,{
         transform: 'translateX(0px)', // corrected "translatex" to "translateX"
@@ -182,6 +185,7 @@ export default function Home() {
         duration: 1,
         ease: 'ease-in-out'
       }, '-=1.09'); // Start this animation 1 second before the end of the previous one
+    }
   };
   
   // const heroItems: MouseEventHandler<HTMLAnchorElement> | undefined = () => {

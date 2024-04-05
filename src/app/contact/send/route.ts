@@ -2,7 +2,7 @@ import mail from '@sendgrid/mail';
 import { NextResponse } from 'next/server';
 
 // Create an api key in sendgrid and store someplace safe
-mail.setApiKey("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");
+mail.setApiKey(process.env.SENDGRID_API_KEY || '');
 
 type ResponseData = {
   status?: string;

@@ -1423,7 +1423,7 @@ color: #e0e0e0;
   .form {
     margin-top: -20px;
     margin-bottom: 200px;
-    margin-left: 53px;
+    margin-left: 62.5px;
   }
   
   .form:focus {
@@ -1593,6 +1593,7 @@ color: #e0e0e0;
     display: flex;
     justify-content: center;
     width: 300px;
+    margin-left: 25%;
     margin-top: -160px;
     margin-bottom: 120px;
     color: #282828;

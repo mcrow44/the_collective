@@ -247,6 +247,12 @@ export default function Home() {
         // setMessage(res.message);
         // setStatus(res.status);
         // setDisabled(res.message.length > 0);
+        alert("Thank you! Your message has been sent.");
+        // document.contact-form.reset();
+        const form = document.getElementById('contact-form') as HTMLFormElement | null;
+        if (form) {
+          form.reset();
+        }
       });
   };
 
@@ -405,12 +411,12 @@ export default function Home() {
                     priority
                   /></div>
             <div>
-              <form className={styles.form} onSubmit={onContactFormSubmit}>
+              <form className={styles.form} name="contact-form" id="contact-form" onSubmit={onContactFormSubmit}>
                 <input type="text" name="firstName" className={styles.firstName} id="firstName" placeholder="FIRST NAME" required/>
                 <input type="text" name="lastName"  className={styles.lastName} id="lastName" placeholder="LAST NAME" required/><br/>
                 <input type="email" name="email" className={styles.email} id="email" placeholder="EMAIL" required/><br/>
                 <input type="text" name="message" className={styles.message} id="message" placeholder="MESSAGE (OPTIONAL)"/><br/>
-                <input type="tel" name="phone" className={styles.phone} id="phone" placeholder="PHONE NUMBER (OPTIONAL)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                <input type="tel" name="phone" className={styles.phone} id="phone" placeholder="PHONE NUMBER (OPTIONAL)" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"/>
 
                 <input type="submit" className={styles.submit}/>
 

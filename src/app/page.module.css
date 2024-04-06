@@ -176,6 +176,12 @@
   margin-left: 20px;
 }
 
+.reach {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
 .navBar {
   color: #e0e0e0;
   display: flex;
@@ -1058,6 +1064,12 @@ color: #e0e0e0;
     margin-top: 40px;
     margin-left: 12%;
   }
+
+  .reach {
+    display: flex;
+    width: 200px;
+    margin-top: 40px;
+  }
   
   .navBar {
     color: #e0e0e0;
@@ -1149,10 +1161,10 @@ color: #e0e0e0;
   .middle {
     flex-direction: row;
     position: relative;
-    height: 100vh;
+    height: 400px;
     width: 100%;
     margin-top: 300px;
-    pointer-events: none;
+    
   }
   
   .end {
@@ -1177,7 +1189,7 @@ color: #e0e0e0;
     z-index: 2;
     margin-right: 164px;
     margin-left: 164px;
-    margin-top: -500px;
+    margin-top: -40px;
     margin-bottom: 0px;
   }
   
@@ -1580,7 +1592,7 @@ color: #e0e0e0;
   .socialsMessage {
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 300px;
     margin-top: -160px;
     margin-bottom: 120px;
     color: #282828;

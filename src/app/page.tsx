@@ -405,7 +405,7 @@ export default function Home() {
             <div className={styles.reachout}><Image
                     src="/reach.out.svg"
                     alt="reachout text"
-                    className={styles.whatWeDo}
+                    className={styles.reach}
                     width={450}
                     height={150}
                     priority

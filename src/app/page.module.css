@@ -18,24 +18,30 @@
 
 .description {
   display: inherit;
+  position: fixed;
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
+  margin-top: -20px;
   max-width: var(--max-width);
   width: 100%;
-  height: 200px;
+  height: 120px; 
   z-index: 6;
   font-family: var(--font-mono);
-  background-color: red;
+  background-color: #f4f4f4;
 }
 
-.headerLogo{
-  background-color: red;
+ .headerLogo{
+  width:400px;
+  /* height: 166px; */
+  background-color: #f4f4f4;
 }
 
 .headerNav{
-  background-color: red;
-}
+  width:400px;
+  /* height: 266px; */
+  background-color: #f4f4f4;
+} 
 
 /* modal */
 
@@ -163,7 +169,7 @@
 
 .mainLogo {
   display: flex;
-  top: 30px;
+  top: 5px;
   left: 40px;
   position: fixed;
 }
@@ -182,7 +188,8 @@
 
 .whatWeDo {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -195,7 +202,7 @@
 .navBar {
   color: #e0e0e0;
   display: flex;
-  top: 50px;
+  top: 20px;
   right: 20px;
   flex-direction: row;
   position: fixed;
@@ -707,7 +714,7 @@ color: #e0e0e0;
   display: flex;
   justify-content: center;
   margin-top: -160px;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
   color: #282828;
   font-size: 1.2rem;
 }
@@ -735,7 +742,7 @@ color: #e0e0e0;
 .allDesigns {
   display: flex;
   position: absolute;
-  bottom: 0px;
+  bottom: 15px;
   left: 50%;
   width: 275px;
   height: 60px;
@@ -880,7 +887,7 @@ color: #e0e0e0;
 .instaLogo {
   display: flex;
   margin-right: 20px;
-  margin-left: 700px;
+  margin-left: 650px;
   align-items: right;
 }
 
@@ -913,6 +920,7 @@ color: #e0e0e0;
     font-size: 0.85rem;
     max-width: var(--max-width);
     width: 100%;
+    height: 170px;
     z-index: 6;
     font-family: var(--font-mono);
   }
@@ -1047,7 +1055,7 @@ color: #e0e0e0;
   
   .mainLogo {
     display: flex;
-    top: 30px;
+    top: 10px;
     left: 40px;
     position: fixed;
   }
@@ -1071,20 +1079,22 @@ color: #e0e0e0;
   .whatWeDo {
     display: flex;
     width: 200px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 12%;
   }
+
+  
 
   .reach {
     display: flex;
     width: 200px;
-    margin-top: 40px;
+    margin-top: 150px;
   }
   
   .navBar {
     color: #e0e0e0;
     display: flex;
-    top: 132px;
+    top: 110px;
     left: 30px;
     flex-direction: row;
     position: fixed;
@@ -1199,7 +1209,7 @@ color: #e0e0e0;
     z-index: 2;
     margin-right: 164px;
     margin-left: 164px;
-    margin-top: -40px;
+    margin-top: 140px;
     margin-bottom: 0px;
   }
   
@@ -1633,7 +1643,8 @@ color: #e0e0e0;
   .allDesigns {
     display: flex;
     position: absolute;
-    top: 350px;
+    top: 475px;
+    
     width: 205px;
     height: 40px;
     padding: 8px 66.785px;

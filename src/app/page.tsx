@@ -401,7 +401,7 @@ export default function Home() {
         </section>
         <section>
           <div className={styles.end}>
-            <div id="contact"></div>
+            
             <div className={styles.reachout}><Image
                     src="/reach.out.svg"
                     alt="reachout text"
@@ -410,6 +410,7 @@ export default function Home() {
                     height={150}
                     priority
                   /></div>
+                <div id="contact"></div>
             <div>
               <form className={styles.form} name="contact-form" id="contact-form" onSubmit={onContactFormSubmit}>
                 <input type="text" name="firstName" className={styles.firstName} id="firstName" placeholder="FIRST NAME" required/>

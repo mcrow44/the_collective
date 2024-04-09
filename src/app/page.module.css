@@ -25,6 +25,7 @@
   width: 100%;
   z-index: 6;
   font-family: var(--font-mono);
+  background-color: #f4f4f4;
 }
 
 /* modal */

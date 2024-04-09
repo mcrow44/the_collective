@@ -263,7 +263,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           
-          <div>
+          <div className={styles.headerLogo}>
             <a href="#"><Image
                 src="/cromatic.dark.svg"
                 alt="cromatic Logo"
@@ -277,7 +277,7 @@ export default function Home() {
 
           
 
-          <nav>
+          <nav className={styles.headerNav}>
             <ul className={styles.navBar}>
               <a onClick={handleClickHome}><li className={styles.Home}>Home</li></a>
               <a onClick={handleClickDesign}><li className={styles.Design}>Design</li></a>

@@ -28,6 +28,14 @@
   background-color: #f4f4f4;
 }
 
+.headerLogo{
+  background-color: red;
+}
+
+.headerNav{
+  background-color: red;
+}
+
 /* modal */
 
 .modalContainer {

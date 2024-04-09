@@ -423,7 +423,7 @@ export default function Home() {
               </form>
             </div>
             <div className={styles.socialsMessage}>
-              <h2>feel free to contact me on <a href="https://www.instagram.com/cromatic_collective/" target="_blank" className={styles.instagram}>instagram</a> or <a href="https://twitter.com/CromaticCo" target="_blank" className={styles.twitter}>twitter(x)</a> as well</h2>
+              <h2>feel free to contact me on <a href="https://www.instagram.com/cromatic_collective/" target="_blank" className={styles.instagram}>instagram</a> or <a href="https://twitter.com/CromaticCo" target="_blank" className={styles.twitter}>twitter(x)</a></h2>
             </div>
           </div>
             

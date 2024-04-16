@@ -18,7 +18,7 @@ const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) 
                 <h2>photos</h2>            
             <img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/>
                 <h2>posters</h2>
-            <img src="/image2.jpg" alt="image2" width="800px" height="533.3333px"/>
+            <img src="/image6.png" alt="image6" width="800px" height="533.3333px"/>
                 <h2>branding</h2>
             <img src="/image3.png" alt="image3" width="800px" height="533.3333px"/>
                 <h2>T-shirts</h2>

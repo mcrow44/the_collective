@@ -27,8 +27,13 @@ const IMAGE_DATA = [
     fill:true,
   },
   {
-    src: '/image2.jpg',
-    alt: 'Image 2',
+    src: '/image5.jpg',
+    alt: 'Image 5',
+    fill:true,
+  },
+  {
+    src: '/image6.png',
+    alt: 'Image 6',
     fill:true,
   },
 ]

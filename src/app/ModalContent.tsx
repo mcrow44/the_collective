@@ -15,13 +15,13 @@ const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) 
       <img className={styles.exit2} src="/exit2.svg" alt="exit" width="32px" height="32px" onClick={props.closeModal}/> 
       <img className={styles.header} src="/modalHeader.svg" alt="image1" width="800px" height="100px"/> 
         <div className={styles.mainModalContent}>
-            
+                
+                <h2>branding</h2>
+            <a href="/projectpage/branding"><img src="/image3.png" alt="image3" width="800px" height="533.3333px"/></a>
                 <h2>photography</h2>            
             <a href="/projectpage/photos"><img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/></a>
                 <h2>posters</h2>
             <a href="/projectpage/posters"><img src="/image6.png" alt="image6" width="800px" height="533.3333px"/></a>
-                <h2>branding</h2>
-            <a href="/projectpage/branding"><img src="/image3.png" alt="image3" width="800px" height="533.3333px"/></a>
                 <h2>T-shirts</h2>
             <a href="/projectpage/tshirts"><img src="/image4.png" alt="image4" width="800px" height="533.3333px"/></a>
         </div>

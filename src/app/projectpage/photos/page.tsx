@@ -1,13 +1,13 @@
 'use client'
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "../../page.module.css";
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import React, { FormEvent, useEffect, useRef, useState } from "react";
 import { log } from "console";
-import Modal from "../Modal";
+import Modal from "../../Modal";
 import Link from 'next/link'
-import PhotoGrid from '../PhotoGrid';
+import PhotoGrid from '../../PhotoGrid';
 
 
 
@@ -281,7 +281,7 @@ export default function Home() {
 
         <div className={styles.pageTitle}>
             <Image 
-            src="Photography.svg" 
+            src="/Photography.svg" 
             alt="Photo header" 
             width={450}
             height={100}

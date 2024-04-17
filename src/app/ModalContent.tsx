@@ -17,7 +17,7 @@ const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) 
         <div className={styles.mainModalContent}>
             
                 <h2>photography</h2>            
-            <a href="/projectpage"><img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/></a>
+            <a href="/projectpage/photos"><img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/></a>
                 <h2>posters</h2>
             <img src="/image6.png" alt="image6" width="800px" height="533.3333px"/>
                 <h2>branding</h2>

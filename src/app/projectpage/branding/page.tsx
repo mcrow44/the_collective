@@ -220,34 +220,30 @@ export default function Home() {
   };
 
   const photos = [
-    '../a-1.jpg',
-    '../a-2.jpg',
-    '../a-3.jpg',
-    '../n-2.jpg',
-    '../n-3.jpg',
-    '../n-1.jpg',
+    '../image3.png',
+    '../bc.png',
+    '../tycard.png',
+    '../letter.png',
+    '../envelope.png',
+    '../lanyard.jpg',
+    '../Hoodie.png',
+    '../Polo.jpg',
     // Add more photo URLs as needed
   ];
 
   const photos2 = [
-    '../b-1.jpg',
-    '../b-2.jpg',
-    '../b-3.jpg',
-    '../b.jpg',
-    '../l.jpg',
-    '../l-1.jpg',
+    '../twlogo.png',
+    '../bcard.png',
+    '../notecard.png',
+    '../twletter.png',
+    '../laptop.png',
+    '../mug.png',
     // Add more photo URLs as needed
   ];
 
   const photos3 = [
     '../c-1.jpg',
-    '../c-2.jpg',
-    '../c-3.jpg',
-    '../c-4.jpg',
-    '../c-5.jpg',
-    '../c-6.jpg',
-    '../c-7.jpg',
-    '../c-8.jpg',
+    
     // Add more photo URLs as needed
   ];
   return (
@@ -290,7 +286,7 @@ export default function Home() {
 
             
           </div>
-          <div className={styles.projTitle}><h2>portrait shots</h2></div>
+          <div className={styles.projTitle}><h2>cromatic collective</h2></div>
 
           <div>
             <h1>Photo Gallery</h1>
@@ -298,20 +294,13 @@ export default function Home() {
           </div>
         <div id="design"></div>
         <div className={styles.spacer}></div>
-          <div className={styles.projTitle}><h2>landscape shots</h2></div>
+          <div className={styles.projTitle}><h2>tina weaver ma, lmhc</h2></div>
 
           <div>
             <h1>Photo Gallery</h1>
             <PhotoGrid photos={photos2} />
           </div>
-          <div id="contact"></div>
-          <div className={styles.spacer}></div>
-          <div className={styles.projTitle}><h2>automotive shots</h2></div>
-
-          <div>
-            <h1>Photo Gallery</h1>
-            <PhotoGrid photos={photos3} />
-          </div>
+          {/* <div id="contact"></div> */}
 
           <div className={styles.spacer}></div>
           <div className={styles.spacer}></div>

@@ -838,9 +838,15 @@ color: #e0e0e0;
 
 .projTitle {
   margin-top: 8vh;
-  margin-bottom: 10vh;
+  margin-bottom: 2vh;
   white-space: nowrap;
-  font-size: 2.4rem;
+  
+  color: #282828;
+}
+
+.projTitle h2 {
+  white-space: nowrap;
+  font-size: 1.6rem;
   color: #282828;
 }
 

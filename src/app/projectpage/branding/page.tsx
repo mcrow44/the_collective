@@ -254,7 +254,7 @@ export default function Home() {
         <div className={styles.description}>
           
           <div className={styles.headerLogo}>
-            <a href="#"><Image
+            <a href="../../"><Image
                 src="/cromatic.dark.svg"
                 alt="cromatic Logo"
                 className={styles.mainLogo}

@@ -2,6 +2,7 @@ import React, { FC, forwardRef,useEffect, useRef, useState, HTMLAttributes } fro
 import styles from "./page.module.css";
 import closeModal from "./Modal";
 import Modal from "./Modal";
+import Link from 'next/link'
 
 type ModalContentProps = {
   closeModal: () => void;
@@ -15,8 +16,8 @@ const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) 
       <img className={styles.header} src="/modalHeader.svg" alt="image1" width="800px" height="100px"/> 
         <div className={styles.mainModalContent}>
             
-                <h2>photos</h2>            
-            <img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/>
+                <h2>photography</h2>            
+            <a href="/projectpage"><img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/></a>
                 <h2>posters</h2>
             <img src="/image6.png" alt="image6" width="800px" height="533.3333px"/>
                 <h2>branding</h2>

@@ -817,6 +817,38 @@ color: #e0e0e0;
   opacity: 0;
 }
 
+.photoGrid {
+  display: grid;
+  margin: 0 160px;
+  grid-template-columns: repeat(3, fit-content());
+  grid-gap: 20px;
+}
+
+.photo {
+  width: 400px;
+  height: auto;
+  box-shadow: 0px 0px 20px #0000007a;
+  /* margin-left: 10px; */
+}
+
+.pageTitle {
+  display: flex;
+  margin-top: 14vh;
+}
+
+.projTitle {
+  margin-top: 8vh;
+  margin-bottom: 10vh;
+  white-space: nowrap;
+  font-size: 2.4rem;
+  color: #282828;
+}
+
+.spacer {
+  width: 10px;
+  height: 100px;
+}
+
 .bioTitle {
   margin-bottom: 10px;
   white-space: nowrap;

@@ -281,7 +281,7 @@ export default function Home() {
 
         <div className={styles.pageTitle}>
             <Image 
-            src="photography.svg" 
+            src="Photography.svg" 
             alt="Photo header" 
             width={450}
             height={100}

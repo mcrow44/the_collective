@@ -19,11 +19,11 @@ const ModalContent = forwardRef<HTMLDivElement, ModalContentProps>((props, ref) 
                 <h2>photography</h2>            
             <a href="/projectpage/photos"><img src="/image1.jpg" alt="image1" width="800px" height="533.3333px"/></a>
                 <h2>posters</h2>
-            <img src="/image6.png" alt="image6" width="800px" height="533.3333px"/>
+            <a href="/projectpage/posters"><img src="/image6.png" alt="image6" width="800px" height="533.3333px"/></a>
                 <h2>branding</h2>
-            <img src="/image3.png" alt="image3" width="800px" height="533.3333px"/>
+            <a href="/projectpage/branding"><img src="/image3.png" alt="image3" width="800px" height="533.3333px"/></a>
                 <h2>T-shirts</h2>
-            <img src="/image4.png" alt="image4" width="800px" height="533.3333px"/>
+            <a href="/projectpage/tshirts"><img src="/image4.png" alt="image4" width="800px" height="533.3333px"/></a>
         </div>
         {/* <div>
             <img className={styles.overlay1_1} src="/overlay.svg" alt="image1" width="800px" height="533.3333px"/><img className={styles.overlay1_2} src="/photosOverlay.svg" alt="image1" width="200px" height="90px"/>

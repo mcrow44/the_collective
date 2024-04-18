@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Bebas_Neue } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const MyFont = Bebas_Neue({

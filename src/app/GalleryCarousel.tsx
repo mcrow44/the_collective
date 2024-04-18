@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import gsap from "gsap";
 import React, { useEffect, useRef, useState } from "react";
 import { clear } from "console";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const IMAGE_DATA = [
   {

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import closeModal from "./Modal";
 import Modal from "./Modal";
 import Link from 'next/link'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 type ModalContentProps = {
   closeModal: () => void;

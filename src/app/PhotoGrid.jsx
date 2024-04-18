@@ -7,6 +7,7 @@ import React, { FormEvent, useEffect, useRef, useState } from "react";
 // import { log } from "console";
 import Modal from "./Modal";
 import Link from 'next/link'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const PhotoGrid = ({ photos }) => {

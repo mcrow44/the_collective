@@ -7,6 +7,7 @@ import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import React, { FormEvent, useEffect, useRef, useState } from "react";
 import { log } from "console";
 import Modal from "./Modal";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // import Button from "./NavScroll";
 <link rel="stylesheet" href="https://use.typekit.net/ebp7hqz.css"></link>;
 <link rel="icon" href="./favicon.ico" sizes="any" />

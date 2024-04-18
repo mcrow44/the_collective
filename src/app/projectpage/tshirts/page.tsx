@@ -8,6 +8,7 @@ import { log } from "console";
 import Modal from "../../Modal";
 import Link from 'next/link'
 import PhotoGrid from '../../PhotoGrid';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 

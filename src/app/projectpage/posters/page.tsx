@@ -221,7 +221,7 @@ export default function Home() {
 
   const photos = [
     '../preflight.png',
-    '../globalh.png',
+    // '../globalh.png',
     '../meposter.png',
     '../window.jpg',
     '../shotfilm.jpg',

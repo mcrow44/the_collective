@@ -510,6 +510,7 @@
 .aboutMe a {
   display: flex;
   align-items: center;
+  white-space: nowrap;
 }
 
 .goBack {

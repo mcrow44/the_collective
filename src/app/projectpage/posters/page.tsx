@@ -220,34 +220,37 @@ export default function Home() {
   };
 
   const photos = [
-    '../a-1.jpg',
-    '../a-2.jpg',
-    '../a-3.jpg',
-    '../n-2.jpg',
-    '../n-3.jpg',
-    '../n-1.jpg',
+    '../preflight.png',
+    '../globalh.png',
+    '../meposter.png',
+    '../window.jpg',
+    '../shotfilm.jpg',
+    '../quoteme.png',
+    '../favoritetype.png',
+    '../postcardfront.png',
+    '../postcardback.png',
     // Add more photo URLs as needed
   ];
 
   const photos2 = [
-    '../b-1.jpg',
-    '../b-2.jpg',
-    '../b-3.jpg',
-    '../b.jpg',
-    '../l.jpg',
-    '../l-1.jpg',
+    // '../b-1.jpg',
+    // '../b-2.jpg',
+    // '../b-3.jpg',
+    // '../b.jpg',
+    // '../l.jpg',
+    // '../l-1.jpg',
     // Add more photo URLs as needed
   ];
 
   const photos3 = [
-    '../c-1.jpg',
-    '../c-2.jpg',
-    '../c-3.jpg',
-    '../c-4.jpg',
-    '../c-5.jpg',
-    '../c-6.jpg',
-    '../c-7.jpg',
-    '../c-8.jpg',
+    // '../c-1.jpg',
+    // '../c-2.jpg',
+    // '../c-3.jpg',
+    // '../c-4.jpg',
+    // '../c-5.jpg',
+    // '../c-6.jpg',
+    // '../c-7.jpg',
+    // '../c-8.jpg',
     // Add more photo URLs as needed
   ];
   return (
@@ -272,9 +275,9 @@ export default function Home() {
           <nav className={styles.headerNav}>
             <ul className={styles.navBar}>
               <a href="../"><li className={styles.Home}>back</li></a>
-              <a onClick={handleClickHome}><li className={styles.Home}>Portrait</li></a>
-              <a onClick={handleClickDesign}><li className={styles.Home}>landscape</li></a>
-              <a onClick={handleClickContact}><li className={styles.Home}>auto</li></a>
+              <a onClick={handleClickHome}><li className={styles.Home}>Posters</li></a>
+              {/* <a onClick={handleClickDesign}><li className={styles.Home}>landscape</li></a>
+              <a onClick={handleClickContact}><li className={styles.Home}>auto</li></a> */}
             </ul>
           </nav>
         </div>
@@ -290,28 +293,28 @@ export default function Home() {
 
             
           </div>
-          <div className={styles.projTitle}><h2>portrait shots</h2></div>
+          <div className={styles.projTitle}><h2>Poster Gallery</h2></div>
 
           <div>
             <h1>Photo Gallery</h1>
             <PhotoGrid photos={photos} />
           </div>
-        <div id="design"></div>
+        {/* <div id="design"></div>
         <div className={styles.spacer}></div>
           <div className={styles.projTitle}><h2>landscape shots</h2></div>
 
           <div>
             <h1>Photo Gallery</h1>
             <PhotoGrid photos={photos2} />
-          </div>
-          <div id="contact"></div>
-          <div className={styles.spacer}></div>
+          </div> */}
+          {/* <div id="contact"></div> */}
+          {/* <div className={styles.spacer}></div>
           <div className={styles.projTitle}><h2>automotive shots</h2></div>
 
           <div>
             <h1>Photo Gallery</h1>
             <PhotoGrid photos={photos3} />
-          </div>
+          </div> */}
 
           <div className={styles.spacer}></div>
           <div className={styles.spacer}></div>

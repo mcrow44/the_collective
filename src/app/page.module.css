@@ -829,6 +829,12 @@ color: #e0e0e0;
   height: auto;
   box-shadow: 0px 0px 20px #0000007a;
   /* margin-left: 10px; */
+  transition: ease-in-out .5s;
+}
+
+.photo:hover {
+  scale: 1.04;
+  transition: ease-in-out .5s;
 }
 
 .pageTitle {

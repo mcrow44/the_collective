@@ -230,6 +230,7 @@ export default function Home() {
     '../favoritetype.png',
     // '../postcardfront.png',
     // '../postcardback.png',
+    'CROMATICHALFTONE.jpg'
     '../HALFTONE01.jpg',
     '../HALFTONE02.jpg',
     '../HALFTONE03.jpg',

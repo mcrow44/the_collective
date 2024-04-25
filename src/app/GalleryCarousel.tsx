@@ -38,7 +38,7 @@ const IMAGE_DATA = [
     fill:true,
   },
   {
-    src: '/HALFTONEPOSTERSALL.png',
+    src: '/HALFTONEPOSTERSALL.jpg',
     alt: 'HALFTONEPOSTERSALL',
     fill:true,
   },

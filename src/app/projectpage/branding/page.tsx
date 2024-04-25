@@ -269,9 +269,9 @@ export default function Home() {
           <nav className={styles.headerNav}>
             <ul className={styles.navBar}>
               <a href="../"><li className={styles.Home}>back</li></a>
-              <a onClick={handleClickHome}><li className={styles.Home}>Portrait</li></a>
-              <a onClick={handleClickDesign}><li className={styles.Home}>landscape</li></a>
-              <a onClick={handleClickContact}><li className={styles.Home}>auto</li></a>
+              <a onClick={handleClickHome}><li className={styles.Home}>CROMATIC</li></a>
+              <a onClick={handleClickDesign}><li className={styles.Home}>TINA WEAVER LMHC</li></a>
+              {/* <a onClick={handleClickContact}><li className={styles.Home}>auto</li></a> */}
             </ul>
           </nav>
         </div>

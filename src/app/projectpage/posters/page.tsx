@@ -228,8 +228,14 @@ export default function Home() {
     '../shotfilm.jpg',
     '../quoteme.png',
     '../favoritetype.png',
-    '../postcardfront.png',
-    '../postcardback.png',
+    // '../postcardfront.png',
+    // '../postcardback.png',
+    '../HALFTONE01.jpg',
+    '../HALFTONE02.jpg',
+    '../HALFTONE03.jpg',
+    '../HALFTONE04.jpg',
+    '../HALFTONE05.jpg',
+    '../HALFTONEPOSTERSALL.jpg',
     // Add more photo URLs as needed
   ];
 

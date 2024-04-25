@@ -37,6 +37,11 @@ const IMAGE_DATA = [
     alt: 'Image 6',
     fill:true,
   },
+  {
+    src: '/HALFTONEPOSTERSALL.png',
+    alt: 'HALFTONEPOSTERSALL',
+    fill:true,
+  },
 ]
 
 const NUM_IMAGES = IMAGE_DATA.length

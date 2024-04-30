@@ -1240,11 +1240,12 @@ color: #e0e0e0;
     flex-direction: row;
     position: relative;
     height: 100vh;
+    max-height: 1000px;
     width: 100%;
   }
   
   .end {
-    margin-top: -400px;
+    /* margin-top: -400px; */
     flex-direction: row;
   }
   

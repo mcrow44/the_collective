@@ -22,6 +22,7 @@ export async function POST(request: Request) {
   const data = {
     to: 'mfcronin@nic.edu',
     from: 'mcronin2@outlook.com',
+    replyTo: body.email,
     subject: `Website message from ${body.firstName} ${body.lastName}`,
     text: message,
     html: message.replace(/\r\n/g, '<br>'),

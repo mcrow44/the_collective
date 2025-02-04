@@ -243,7 +243,10 @@ export default function Home() {
   ];
 
   const photos3 = [
-    '../c-1.jpg',
+    '../oldirish.png',
+    '../travelireland.png',
+    '../drift1.png',
+    '../drift2.png',
     
     // Add more photo URLs as needed
   ];

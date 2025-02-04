@@ -249,6 +249,11 @@ export default function Home() {
     '../c-6.jpg',
     '../c-7.jpg',
     '../c-8.jpg',
+    '../stang1.jpg',
+    '../stang2.jpg',
+    '../stang3.jpg',
+    '../stang4.jpg',
+    '../stang5.jpg',
     // Add more photo URLs as needed
   ];
   return (

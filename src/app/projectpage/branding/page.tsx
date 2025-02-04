@@ -271,6 +271,7 @@ export default function Home() {
               <a href="../"><li className={styles.Home}>back</li></a>
               <a onClick={handleClickHome}><li className={styles.Home}>CROMATIC</li></a>
               <a onClick={handleClickDesign}><li className={styles.Home}>TINA WEAVER LMHC</li></a>
+              <a onClick={handleClickContact}><li className={styles.Home}>MISC.</li></a>
               {/* <a onClick={handleClickContact}><li className={styles.Home}>auto</li></a> */}
             </ul>
           </nav>
@@ -300,6 +301,14 @@ export default function Home() {
           <div>
             <h1>Photo Gallery</h1>
             <PhotoGrid photos={photos2} />
+          </div>
+          <div id="contact"></div>
+        <div className={styles.spacer}></div>
+          <div className={styles.projTitle}><h2>misc.</h2></div>
+
+          <div>
+            <h1>Photo Gallery</h1>
+            <PhotoGrid photos={photos3} />
           </div>
           {/* <div id="contact"></div> */}
 

@@ -13,8 +13,8 @@ const IMAGE_DATA = [
     fill:true,
   },
   {
-    src: '/image2.jpg',
-    alt: 'Image 2',
+    src: '/oldirish.png',
+    alt: 'oldirish',
     fill:true,
   },
   {
@@ -40,6 +40,21 @@ const IMAGE_DATA = [
   {
     src: '/HALFTONEPOSTERSALL.jpg',
     alt: 'HALFTONEPOSTERSALL',
+    fill:true,
+  },
+  {
+    src: '/travelireland.png',
+    alt: 'travelireland',
+    fill:true,
+  },
+  {
+    src: '/drift1.png',
+    alt: 'drift',
+    fill:true,
+  },
+  {
+    src: '/stang1.jpg',
+    alt: 'stang',
     fill:true,
   },
 ]

@@ -245,6 +245,7 @@ export default function Home() {
   const photos3 = [
     '../oldirish.png',
     '../travelireland.png',
+    '../FAS.png',
     '../drift1.png',
     '../drift2.png',
     

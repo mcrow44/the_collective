@@ -221,6 +221,7 @@ export default function Home() {
   };
 
   const photos = [
+    '../thedimming.png',
     '../preflight.png',
     // '../globalh.png',
     '../meposter.png',

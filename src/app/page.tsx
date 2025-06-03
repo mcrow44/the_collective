@@ -346,10 +346,10 @@ export default function Home() {
                 <h2>About Me.</h2>
               </div>
               <div className={styles.bioText}>
-                <p>In a world full of business owners, insane ad campaigns, and gross logos... Michael Cronin, thats me and my company, try to do the impossible... Create a style guide to help you survive running a business
+                <p>In a world full of business owners, insane ad campaigns, and gross logos... Michael Cronin, thats me , tries to do the impossible... Create a style guide to help you survive running a business.
 
                     <br/><br/>Cromatic Collective's declassified brand survival guide.<br/><br/>
-                    Im a graphic designer, photographer, web designer, and overall pretty decent dude. I have 10 years of experience in design as well as a basic understanding in HTML, CSS, and JavaScript. I also have expertise in the full adobe suite of design tools.<br/><br/> So take a look through my pixel perfect designs that will show your customers who you are to see if we would be a good fit.</p>
+                    Im a graphic designer, photographer, web designer, and overall pretty decent dude. I have 2 years of experience in design, 10 years of experience in Photography, as well as a basic understanding in HTML, CSS, and JavaScript. I also have expertise in the full adobe suite of design tools.<br/><br/> So take a look through my pixel perfect designs to see if we would be a good fit.</p>
               </div>
             </div>
             <div className={styles.centerthree}>
